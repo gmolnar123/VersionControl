@@ -8,9 +8,10 @@ namespace UserMaintenance
         public Form1()
         {
             InitializeComponent();
-            lblFirstName.Text = Resource1.FirstName;
-            lblLastName.Text = Resource1.LastName;
+          //  lblFirstName.Text = Resource1.FirstName;
+            lblLastName.Text = Resource1.FullName;
             btnAdd.Text = Resource1.Add;
+            button1.Text = Resource1.WriteToFile;
 
             listUser.DataSource = users;
             listUser.ValueMember = "ID";
@@ -23,11 +24,23 @@ namespace UserMaintenance
         {
             var u = new User()
             {
-                FirstName = textBox1.Text,
-                LastName = textBox2.Text
+                //FirstName = textBox1.Text,
+                FullName = textBox2.Text
             };
 
             users.Add(u);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.ShowDialog();
+            using (StreamWriter sw = new StreamWriter(saveFileDialog1.FileName))
+            {
+                foreach (var item in users)
+                {
+                    sw.WriteLine(item.FullName+' '+item.ID);
+                }
+            }
         }
     }
 }

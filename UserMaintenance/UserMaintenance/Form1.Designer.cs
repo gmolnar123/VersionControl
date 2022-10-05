@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.listUser = new System.Windows.Forms.ListBox();
-            this.lblFirstName = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // listUser
@@ -45,15 +45,6 @@
             this.listUser.Size = new System.Drawing.Size(328, 324);
             this.listUser.TabIndex = 0;
             // 
-            // lblFirstName
-            // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(392, 32);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(50, 20);
-            this.lblFirstName.TabIndex = 1;
-            this.lblFirstName.Text = "label1";
-            // 
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
@@ -62,13 +53,6 @@
             this.lblLastName.Size = new System.Drawing.Size(50, 20);
             this.lblLastName.TabIndex = 2;
             this.lblLastName.Text = "label2";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(481, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
@@ -87,16 +71,25 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(564, 146);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.listUser);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -108,10 +101,10 @@
         #endregion
 
         private ListBox listUser;
-        private Label lblFirstName;
         private Label lblLastName;
-        private TextBox textBox1;
         private TextBox textBox2;
         private Button btnAdd;
+        private Button button1;
+        private SaveFileDialog saveFileDialog1;
     }
 }
