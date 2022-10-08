@@ -22,11 +22,13 @@ namespace UserMaintenance
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var u = new User()
-            {
+           // var u = new User()
+           // {
                 //FirstName = textBox1.Text,
-                FullName = textBox2.Text
-            };
+          //      FullName = textBox2.Text
+         //   };
+           User u = new User();
+           u.FullName = textBox2.Text;
 
             users.Add(u);
         }
