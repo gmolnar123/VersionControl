@@ -92,5 +92,24 @@ namespace WindowsFormsApp1
         {
             GetCountries();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Country c = (Country)listBox1.SelectedItem;
+            if (c == null)
+                return;
+
+            var ered = (from r in ramens where r.CountryFK == c.ID select r);
+            var csopered = from r in ered
+                           group r.Stars by r.Brand.Name into g
+                           select new
+                           {
+                               BrandName = g.Key,
+                               AverageRage = Math.Round(g.Average(), 2)
+                           };
+
+            var orderered = from g in csopered orderby g.AverageRage descending select g;
+            dataGridView1.DataSource = orderered.ToList();
+        }
     }
 }
