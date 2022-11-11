@@ -21,8 +21,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             LoadData("Ramen.csv");
+          //  GetCountries();
         }
 
+        public void GetCountries()
+        {
+            var ered = (from c in countries where c.Name.Contains(textBox1.Text) orderby c.Name select c).ToList();
+            listBox1.DataSource = ered;
+            listBox1.DisplayMember = "Name";
+        }
         public void LoadData(string fileName)
         {
             using (StreamReader sr = new StreamReader(fileName)) 
@@ -79,6 +86,11 @@ namespace WindowsFormsApp1
                 }
                 return ered;
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            GetCountries();
         }
     }
 }
