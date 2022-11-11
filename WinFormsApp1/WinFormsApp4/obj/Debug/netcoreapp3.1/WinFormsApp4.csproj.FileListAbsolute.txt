@@ -1,0 +1,17 @@
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\ramen.csv
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\WinFormsApp4.exe
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\WinFormsApp4.deps.json
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\WinFormsApp4.runtimeconfig.json
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\WinFormsApp4.runtimeconfig.dev.json
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\WinFormsApp4.dll
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\bin\Debug\netcoreapp3.1\WinFormsApp4.pdb
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.csproj.AssemblyReference.cache
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.Form1.resources
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.csproj.GenerateResource.cache
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.AssemblyInfoInputs.cache
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.AssemblyInfo.cs
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.dll
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.pdb
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WinFormsApp4\obj\Debug\netcoreapp3.1\WinFormsApp4.genruntimeconfig.cache

@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj": {}
+    "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\WinFormsApp1\\WinFormsApp4\\WinFormsApp4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj": {
+    "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\WinFormsApp1\\WinFormsApp4\\WinFormsApp4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj",
-        "projectName": "UserMaintenance",
-        "projectPath": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj",
+        "projectUniqueName": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\WinFormsApp1\\WinFormsApp4\\WinFormsApp4.csproj",
+        "projectName": "WinFormsApp4",
+        "projectPath": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\WinFormsApp1\\WinFormsApp4\\WinFormsApp4.csproj",
         "packagesPath": "C:\\Users\\gmolnar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmolnar\\Source\\Repos\\VersionControl\\UserMaintenance\\UserMaintenance\\obj\\",
+        "outputPath": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\WinFormsApp1\\WinFormsApp4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmolnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
