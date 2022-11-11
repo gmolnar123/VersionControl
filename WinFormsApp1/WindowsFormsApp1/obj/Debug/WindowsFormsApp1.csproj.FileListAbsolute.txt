@@ -3,3 +3,9 @@ C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\obj\D
 C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\bin\Debug\ramen.csv
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\gmolnar\source\repos\VersionControl\WinFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
