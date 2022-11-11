@@ -3,10 +3,7 @@
     "",
     "\\UserMaintenance",
     "\\UserMaintenance\\UserMaintenance",
-    "\\UserMaintenance\\UserMaintenance\\bin\\Debug",
-    "\\UserMaintenance\\UserMaintenance\\bin\\Debug\\net6.0-windows",
-    "\\UserMaintenance\\UserMaintenance\\Entities",
-    "\\UserMaintenance\\UserMaintenance\\obj\\Debug"
+    "\\UserMaintenance\\UserMaintenance\\Entities"
   ],
   "SelectedNode": "\\UserMaintenance\\UserMaintenance\\Form1.cs",
   "PreviewInSolutionExplorer": false
