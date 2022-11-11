@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
     {
         List<Country> countries = new List<Country>();
         List<Ramen> ramens = new List<Ramen>();
+        List<Brand > brands = new List<Brand>();
 
         public Form1()
         {
@@ -31,14 +32,16 @@ namespace WindowsFormsApp1
                 {
                     string[] sor = sr.ReadLine().Split(';');
                     string orszag = sor[2];
+                    string brand = sor[0];
                     Country or = AddCountry(orszag);
+                    Brand br = AddBrand(brand);
                     Ramen r = new Ramen
                     {
                         ID = ramens.Count,
                         CountryFK = or.ID,
                         Country = or,
                         Stars = Convert.ToDouble(sor[3]),
-                        Brand = sor[0],
+                        Brand = br,
                         Name = sor[1]
                     };
                     ramens.Add(r);
@@ -58,6 +61,21 @@ namespace WindowsFormsApp1
                         Name = orszag
                     };
                     countries.Add(ered);
+                }
+                return ered;
+            }
+
+            Brand AddBrand(string brand)
+            {
+                var ered = (from c in brands where c.Name.Equals(brand) select c).FirstOrDefault();
+                if (ered == null)
+                {
+                    ered = new Brand()
+                    {
+                        ID = brands.Count + 1,
+                        Name = brand
+                    };
+                    brands.Add(ered);
                 }
                 return ered;
             }

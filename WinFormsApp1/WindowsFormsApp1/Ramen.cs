@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
     internal class Ramen
     {
         public int ID { get; set; }
-        public string Brand { get; set; }
+        public Brand Brand { get; set; }
 
         public string Name { get; set; }
 
