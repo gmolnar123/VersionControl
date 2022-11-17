@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj": {}
+    "C:\\Users\\gmolnar\\Source\\Repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj": {
+    "C:\\Users\\gmolnar\\Source\\Repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj",
+        "projectUniqueName": "C:\\Users\\gmolnar\\Source\\Repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj",
         "projectName": "UserMaintenance",
-        "projectPath": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj",
+        "projectPath": "C:\\Users\\gmolnar\\Source\\Repos\\VersionControl\\UserMaintenance\\UserMaintenance\\UserMaintenance.csproj",
         "packagesPath": "C:\\Users\\gmolnar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gmolnar\\source\\repos\\VersionControl\\UserMaintenance\\UserMaintenance\\obj\\",
+        "outputPath": "C:\\Users\\gmolnar\\Source\\Repos\\VersionControl\\UserMaintenance\\UserMaintenance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gmolnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
