@@ -67,14 +67,16 @@ namespace WinFormsApp4
 
         void GetCountries()
         {
-            var ered = (from c in orszagok where c.Name.Contains(textBox1.Text) orderby c.Name select c).ToList();
+            //  var ered = (from c in orszagok where c.Name.Contains(textBox1.Text) orderby c.Name select c).ToList();
+            var ered = orszagok.Where(i => i.Name.Contains(textBox1.Text)).OrderBy(i => i.Name).ToList();
             listBox1.DataSource = ered;
             listBox1.DisplayMember = "Name";
         }
 
         Country AddCountry(string orszag)
         {
-            var ered = (from o in orszagok where o.Name == orszag select o).FirstOrDefault();
+            //  var ered = (from o in orszagok where o.Name == orszag select o).FirstOrDefault();
+            var ered = orszagok.Where(i => i.Name.Equals(orszag)).FirstOrDefault();
             if (ered == null)
             {
                 ered = new Country
