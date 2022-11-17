@@ -27,7 +27,7 @@ namespace WindowsFormsApp2.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=bit.uni-corvinus.hu;Initial Catalog=RealEstate;Persist Security Info=" +
-            "True;User ID=hallgato")]
+            "True;User ID=hallgato;Password=Password123")]
         public string RealEstateConnectionString {
             get {
                 return ((string)(this["RealEstateConnectionString"]));
