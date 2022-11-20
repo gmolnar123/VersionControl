@@ -49,9 +49,14 @@ namespace WindowsFormsApp4
 
             foreach (XmlElement item in xml.DocumentElement)
             {
+                if (item.ChildNodes[0] == null)
+                {
+                    continue;
+                }
                 RateData rd = new RateData();
                 rates.Add(rd);
                 rd.Date = Convert.ToDateTime(item.Attributes["date"].Value);
+
                 rd.Currency = item.ChildNodes[0].Attributes["curr"].Value;
                 rd.Value = decimal.Parse(item.ChildNodes[0].Attributes["unit"].Value);
                 if (rd.Value != 0)
@@ -95,17 +100,16 @@ namespace WindowsFormsApp4
             XmlDocument xm = new XmlDocument();
             xm.LoadXml(result);
             int counter = 0;
-            foreach (XmlElement item in xm.DocumentElement)
+            XmlElement item = xm.DocumentElement;
+            while (item.ChildNodes[0].ChildNodes[counter] !=null)
             {
-                if (item.ChildNodes[counter] == null)
-                {
-                    continue;
-                }
-                else
-                {
-                    currencies.Add(item.ChildNodes[counter].FirstChild.Value.ToString());
+                //  string c = item.ChildNodes[counter].
+
+
+
+                currencies.Add(item.ChildNodes[0].ChildNodes[counter].InnerText.ToString());
                     counter++;
-                }
+                
                 
             }
 
