@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\UserMaintenance",
-    "\\UserMaintenance\\UserMaintenance",
-    "\\UserMaintenance\\UserMaintenance\\Entities"
+    ""
   ],
-  "SelectedNode": "\\UserMaintenance\\UserMaintenance\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
