@@ -51,12 +51,11 @@ namespace WindowsFormsApp1
             s.ShowDialog();
             using (StreamWriter sw = new StreamWriter(s.FileName))
             {
-                sw.WriteLine("Időszak" + " " + "Nyereség");
-                int i = 0;
-                foreach (var item in Nyereségek)
+                sw.WriteLine("Időszak" + "\t" + "Nyereség");
+                
+                for (int i = 0; i < Nyereségek.Count; i++)
                 {
-                    sw.WriteLine(i.ToString() + " " + item.ToString());
-                    i++;
+                    sw.WriteLine(string.Format("{0}\t{1}",i.ToString(),Nyereségek[i].ToString()));
                 }
             }
             
@@ -70,19 +69,35 @@ namespace WindowsFormsApp1
             dataGridView2.DataSource = pi;
         }
 
+        //private decimal GetPortfolioValue(DateTime date)
+        //{
+        //    decimal value = 0;
+        //    foreach (var item in pi)
+        //    {
+        //        var last = (from x in ticks
+        //                    where item.Index == x.Index.Trim()
+        //                       && date <= x.TradingDay
+        //                    select x)
+        //                    .First();
+        //        value += (decimal)last.Price * item.Vollume;
+        //    }
+        //    return value;
+        //}
+
         private decimal GetPortfolioValue(DateTime date)
         {
-            decimal value = 0;
-            foreach (var item in pi)
-            {
-                var last = (from x in ticks
-                            where item.Index == x.Index.Trim()
-                               && date <= x.TradingDay
-                            select x)
-                            .First();
-                value += (decimal)last.Price * item.Vollume;
-            }
-            return value;
+            var l = from x in ticks
+                    where date <= x.TradingDay
+                    group x by x.Index.Trim() into g
+                    select new
+                    {
+                        i = g.Key, total = g.Sum(y => y.Volume)
+                    };
+
+                    
+            return Convert.ToDecimal(l);
         }
+
+
     }
 }
